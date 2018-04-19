@@ -3,6 +3,7 @@ package pages;
 import elements.ElementsMailPage;
 import org.openqa.selenium.WebDriver;
 
+
 public class MailPage {
 
     WebDriver driver;
@@ -13,19 +14,21 @@ public class MailPage {
         elementsMailPage = new ElementsMailPage(driver);
     }
 
-    public void openMail(String author){
+
+
+    public void openMail(String author) {
         elementsMailPage.openMail(author);
     }
 
-    public String authorText(){
+    public String authorText() {
         return elementsMailPage.authorMail();
     }
 
-    public String themeMail(){
+    public String themeMail() {
         return elementsMailPage.themeMail();
     }
 
-    public String textMail(){
+    public String textMail() {
         return elementsMailPage.textMail();
     }
 }

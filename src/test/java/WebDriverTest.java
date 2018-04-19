@@ -1,7 +1,7 @@
 import helpers.TestBase;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -18,7 +18,7 @@ public class WebDriverTest extends TestBase {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void logout(){
+    public void logout() {
         mainPage.logout();
     }
 

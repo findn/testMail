@@ -9,17 +9,17 @@ public class MainPage {
     ElementsMainPage elementsMainPage;
 
     public MainPage(WebDriver driver) {
-        this.driver=driver;
-         elementsMainPage = new ElementsMainPage(driver);
+        this.driver = driver;
+        elementsMainPage = new ElementsMainPage(driver);
     }
 
-    public void authorization(String login, String password){
+    public void authorization(String login, String password) {
         elementsMainPage.enterLogin(login);
         elementsMainPage.enterPassword(password);
         elementsMainPage.authButtonClick();
     }
 
-    public void logout(){
+    public void logout() {
         elementsMainPage.logout();
     }
 }

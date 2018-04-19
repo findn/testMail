@@ -26,18 +26,19 @@ public class ElementsMainPage {
         this.driver = driver;
     }
 
-    public void enterLogin (String username){
-        login.sendKeys(username); }
+    public void enterLogin(String username) {
+        login.sendKeys(username);
+    }
 
-    public void enterPassword (String pass){
+    public void enterPassword(String pass) {
         password.sendKeys(pass);
     }
 
-    public void authButtonClick (){
+    public void authButtonClick() {
         authButton.click();
     }
 
-    public void logout(){
+    public void logout() {
         logout.click();
     }
 
