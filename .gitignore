@@ -1,0 +1,5 @@
+.idea/
+target/
+#For local runs only
+allure-results/
+.DS_Store
